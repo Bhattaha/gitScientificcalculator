@@ -12,10 +12,14 @@ namespace Calculator
         {
             return a - b;
         }
-
+        public static int Multiply(int a, int b)
+        {
+            return a * b;
+        }
+        public static int Percent(int a, int b)
+        {
+            return (a /b)*100 ;
+        }
     }
-    public static int Multiply(int a, int b)
-    {
-        return a * b;
-    }
+    
 }
